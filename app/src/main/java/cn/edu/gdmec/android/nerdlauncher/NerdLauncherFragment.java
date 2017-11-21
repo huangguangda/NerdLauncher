@@ -26,6 +26,7 @@ public class NerdLauncherFragment extends Fragment{
     //向PackageManager查询activity总数
     private static final String TAG = "NerdLauncherFragment";
 
+    //声明
     private RecyclerView mRecyclerView;
     public static NerdLauncherFragment newInstance(){
         return new NerdLauncherFragment ();
